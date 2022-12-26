@@ -1,4 +1,4 @@
-import {createGlobalStyle} from 'styled-components';
+import { createGlobalStyle } from "styled-components";
 
 // Theme generated with Coolors + Ionic Color Generator
 
@@ -61,16 +61,21 @@ export default createGlobalStyle`
 		--light-tint: #f5f6f9;
 
 		--global-max-width: 1400px;
+		--global-default-padding: 20px;
 	}
 
     *{
         box-sizing: border-box;
         padding: 0;
         margin: 0;
+		font-weight: normal;
     }
 
     *, button, input{
-        font-family: "Roboto", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-family: 'Assistant', sans-serif;
+		text-rendering: optimizeLegibility;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
     }
 
 	#root{
