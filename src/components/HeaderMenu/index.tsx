@@ -1,15 +1,13 @@
-import React from 'react';
+import React from "react";
 
-import { Container, HeaderContent } from './styles';
+import { Container, HeaderContent } from "./styles";
 
 const HeaderMenu: React.FC = () => {
   return (
     <Container>
-      <HeaderContent>
-        Header
-      </HeaderContent>
+      <HeaderContent>AliKit</HeaderContent>
     </Container>
   );
-}
+};
 
 export default HeaderMenu;

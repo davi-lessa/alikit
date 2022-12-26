@@ -1,29 +1,25 @@
-import HeaderMenu from './components/HeaderMenu'
-import Skeleton from './components/Skeleton'
-import GlobalStyles from './styles/GlobalStyles'
-import RightBar from './components/RightBar'
-import MainFrame from './components/MainFrame'
-import { MiddleRow } from './styles/MiddleRow'
+import HeaderMenu from "./components/HeaderMenu";
+import Skeleton from "./components/Skeleton";
+import GlobalStyles from "./styles/GlobalStyles";
+import AdBar from "./components/AdBar";
+import MainFrame from "./components/MainFrame";
+import { MiddleRow } from "./styles/MiddleRow";
 
 function App() {
-
   return (
     <>
-    <Skeleton>
-      <HeaderMenu />
+      <Skeleton>
+        <HeaderMenu />
 
-      <MiddleRow>
-        <MainFrame>
+        <MiddleRow>
+          <MainFrame></MainFrame>
+          <AdBar />
+        </MiddleRow>
 
-        </MainFrame>
-        <RightBar />
-        
-      </MiddleRow>
-
-      <GlobalStyles />
-    </Skeleton>
+        <GlobalStyles />
+      </Skeleton>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
