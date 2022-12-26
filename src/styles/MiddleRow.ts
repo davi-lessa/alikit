@@ -13,4 +13,5 @@ export const MiddleRow = styled.div`
   box-shadow: 0 0 10px 0 var(--light);
   padding: var(--global-default-padding);
   margin: 0 auto;
+  overflow-y: auto;
 `;

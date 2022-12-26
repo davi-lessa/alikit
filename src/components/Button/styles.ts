@@ -7,6 +7,7 @@ export const Btn = styled.button`
   cursor: pointer;
   padding: 8px 15px;
   transition: background 0.25s;
+  user-select: none;
 
   &.primary {
     background: var(--primary);
@@ -18,6 +19,7 @@ export const Btn = styled.button`
       background: var(--primary-shade);
     }
   }
+
   &.secondary {
     background: var(--secondary);
     color: var(--secondary-contrast);
@@ -28,6 +30,7 @@ export const Btn = styled.button`
       background: var(--secondary-shade);
     }
   }
+
   &.tertiary {
     background: var(--tertiary);
     color: var(--tertiary-contrast);
@@ -36,6 +39,19 @@ export const Btn = styled.button`
     }
     &:active {
       background: var(--tertiary-shade);
+    }
+  }
+
+  &.neutral {
+    background: var(--light);
+    color: var(--light-contrast);
+
+    &:hover {
+      background: #f8f9fc;
+    }
+
+    &:active {
+      background: var(--light-shade);
     }
   }
 `;

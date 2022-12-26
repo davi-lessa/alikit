@@ -16,7 +16,7 @@ function App() {
         <HeaderMenu />
 
         <MiddleRow>
-          <MainFrame title={defaultTitle} description={defaultDescription}></MainFrame>
+          <MainFrame title={defaultTitle} description={defaultDescription} />
           <AdBar />
         </MiddleRow>
 

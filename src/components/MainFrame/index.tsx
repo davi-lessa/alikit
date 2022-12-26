@@ -2,6 +2,7 @@ import React from "react";
 
 import { Container } from "./styles";
 import SearchBar from "../SearchBar";
+import DataDisplayer from "../DataDisplayer";
 
 interface Props {
   children?: React.ReactNode;
@@ -16,7 +17,8 @@ const MainFrame: React.FC<Props> = ({ children, title, description }: Props) => 
         <h1>{title}</h1>
         <p>{description}</p>
         {children}
-        <SearchBar></SearchBar>
+        <SearchBar />
+        <DataDisplayer />
       </Container>
     </>
   );

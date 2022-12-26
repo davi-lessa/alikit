@@ -9,7 +9,7 @@ const SearchBar: React.FC = () => {
       <h2>Try it right now.</h2>
       <label htmlFor="search_url">Insert the product id or url:</label>
       <Input type="text" name="search_url" id="search_url" placeholder="eg: https://pt.aliexpress.com/item/12436587091.html" />
-      <Button>Get JSON</Button>
+      <Button theme="secondary">Get Data</Button>
     </Container>
   );
 };
